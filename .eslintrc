@@ -14,7 +14,7 @@
     "import/no-extraneous-dependencies": "off",
     "max-len": [
       "error",
-      120
+      180
     ],
     "new-cap": "off",
     "newline-before-return": "error",
@@ -29,7 +29,6 @@
       "initializations"
     ],
     "sort-imports": "error",
-    "sort-keys": "error",
     "sort-vars": "error"
   }
 }
