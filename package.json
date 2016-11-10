@@ -1,0 +1,39 @@
+{
+  "name": "arangodb-error-codes",
+  "version": "1.0.0",
+  "description": "Error codes for ArangoDB",
+  "main": "./build/index.js",
+  "scripts": {
+    "build": "babel app --out-dir build",
+    "lint": "eslint app *.js",
+    "test": "mocha -r babel-register --recursive app/tests"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/oprogramador/arangodb-error-codes.git"
+  },
+  "keywords": [
+    "arango",
+    "arangodb",
+    "error",
+    "errors",
+    "codes",
+    "numbers"
+  ],
+  "license": "MIT",
+  "devDependencies": {
+    "babel-cli": "^6.18.0",
+    "babel-core": "^6.18.2",
+    "babel-preset-es2016": "^6.16.0",
+    "babel-register": "^6.18.0",
+    "chai": "^3.5.0",
+    "eslint": "^3.9.1",
+    "eslint-config-airbnb": "^13.0.0",
+    "eslint-plugin-import": "^2.2.0",
+    "eslint-plugin-jsx-a11y": "^2.2.3",
+    "eslint-plugin-react": "^6.6.0",
+    "eslint-plugin-sorting": "^0.3.0",
+    "lodash": "^4.16.6",
+    "mocha": "^3.1.2"
+  }
+}
