@@ -1,6 +1,6 @@
 # ArangoDB error codes
 
-ArangoDB 3 error codes according to the [official documentation](https://docs.arangodb.com/3.0.10/Manual/Appendix/ErrorCodes.html]).
+ArangoDB 3 error codes according to the [official documentation](https://docs.arangodb.com/3.0.10/Manual/Appendix/ErrorCodes.html).
 
 ## install
 
