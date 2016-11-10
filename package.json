@@ -6,6 +6,7 @@
   "scripts": {
     "build": "babel app --out-dir build",
     "lint": "eslint app *.js",
+    "prepublish": "npm run build",
     "test": "mocha -r babel-register --recursive app/tests"
   },
   "repository": {
