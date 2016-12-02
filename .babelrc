@@ -1,9 +1,5 @@
 {
   "presets": [
-    "es2015",
-    "es2016"
-  ],
-  "plugins": [
-    "add-module-exports"
+    "es2015"
   ]
 }
