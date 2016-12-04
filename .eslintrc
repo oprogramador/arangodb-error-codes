@@ -1,34 +1,10 @@
 {
-  "env": {
-    "mocha": true,
-    "node": true
-  },
-  "extends": "airbnb",
-  "plugins": [
-    "sorting"
-  ],
+  "extends": "eslint-config-airbnb-improved",
   "rules": {
-    "class-methods-use-this": "off",
-    "import/extensions": "off",
-    "import/first": "off",
-    "import/no-extraneous-dependencies": "off",
     "max-len": [
       "error",
       180
     ],
-    "new-cap": "off",
-    "newline-before-return": "error",
-    "one-var": [
-      "error",
-      {
-        "initialized": "never"
-      }
-    ],
-    "one-var-declaration-per-line": [
-      "error",
-      "initializations"
-    ],
-    "sort-imports": "error",
-    "sort-vars": "error"
+    "sort-keys": "off"
   }
 }
