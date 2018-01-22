@@ -1,12 +1,12 @@
 {
   "name": "arangodb-error-codes",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Error codes for ArangoDB",
   "main": "./build/index.js",
   "scripts": {
     "build": "babel app --out-dir build",
     "lint": "eslint app *.js",
-    "prepublish": "npm run build",
+    "prepublishOnly": "npm run build",
     "test": "mocha -r babel-register --recursive app/tests"
   },
   "repository": {
