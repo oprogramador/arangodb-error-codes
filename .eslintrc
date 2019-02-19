@@ -1,6 +1,7 @@
 {
   "extends": "eslint-config-airbnb-improved",
   "rules": {
+    "import/order": "off",
     "max-len": [
       "error",
       180
