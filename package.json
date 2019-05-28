@@ -30,7 +30,7 @@
     "babel-register": "^6.26.0",
     "chai": "^4.2.0",
     "eslint": "^5.16.0",
-    "eslint-config-airbnb-improved": "^4.0.5",
+    "eslint-config-airbnb-improved": "^4.0.6",
     "lodash": "^4.17.11",
     "mocha": "^6.1.4"
   }
