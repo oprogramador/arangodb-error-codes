@@ -31,7 +31,7 @@
     "chai": "^4.2.0",
     "eslint": "^6.0.1",
     "eslint-config-airbnb-improved": "^4.0.9",
-    "lodash": "^4.17.11",
+    "lodash": "^4.17.14",
     "mocha": "^6.1.4"
   }
 }
