@@ -4,11 +4,12 @@ node_js:
   - 8
   - 10
   - 12
+  - 14
   - node
 script:
-  - npm install
-  - npm run lint
-  - npm test
+  - yarn install --non-interactive
+  - yarn lint
+  - yarn test
 jobs:
   include:
     - stage: deploy
