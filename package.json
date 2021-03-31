@@ -1,6 +1,6 @@
 {
   "name": "arangodb-error-codes",
-  "version": "1.0.15",
+  "version": "1.0.0",
   "description": "Error codes for ArangoDB",
   "main": "./build/index.js",
   "scripts": {
