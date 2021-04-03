@@ -28,13 +28,13 @@
     "@semantic-release/npm": "^7.1.0",
     "babel-cli": "^6.26.0",
     "babel-core": "^6.26.3",
-    "babel-plugin-add-module-exports": "^1.0.2",
+    "babel-plugin-add-module-exports": "^1.0.4",
     "babel-preset-es2015": "^6.24.1",
     "babel-register": "^6.26.0",
-    "chai": "^4.2.0",
+    "chai": "^4.3.4",
     "eslint": "^6.8.0",
     "eslint-config-airbnb-improved": "^4.0.14",
-    "lodash": "^4.17.15",
-    "mocha": "^7.0.1"
+    "lodash": "^4.17.21",
+    "mocha": "^7.2.0"
   }
 }
