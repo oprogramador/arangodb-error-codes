@@ -85,7 +85,6 @@ const codes = {
   ERROR_SHUTTING_DOWN: 30,
   // Will be raised when a call cannot succeed because a server shutdown is already in progress.
 
-
   // HTTP error status codes
 
   ERROR_HTTP_BAD_PARAMETER: 400,
@@ -109,7 +108,6 @@ const codes = {
   ERROR_HTTP_SERVER_ERROR: 500,
   // Will be raised when an internal server is encountered.
 
-
   // HTTP processing errors
 
   ERROR_HTTP_CORRUPTED_JSON: 600,
@@ -117,7 +115,6 @@ const codes = {
 
   ERROR_HTTP_SUPERFLUOUS_SUFFICES: 601,
   // Will be raised when the URL contains superfluous suffices.
-
 
   // Internal ArangoDB storage errors
 
@@ -146,7 +143,6 @@ const codes = {
 
   ERROR_ARANGO_RECOVERY: 1008,
   // Will be raised when an error occurred during WAL log file recovery.
-
 
   // External ArangoDB storage errors
 
@@ -187,7 +183,6 @@ const codes = {
 
   ERROR_ARANGO_SYNC_TIMEOUT: 1111,
   // Will be raised when the server waited too long for a datafile to be synced to disk.
-
 
   // General ArangoDB storage errors
 
@@ -304,7 +299,6 @@ const codes = {
   ERROR_ARANGO_DOCUMENT_REV_BAD: 1239,
   // Will be raised when a document revision is corrupt or is missing where needed.
 
-
   // Checked ArangoDB storage errors
 
   // For errors that occur but are anticipated.
@@ -314,7 +308,6 @@ const codes = {
 
   ERROR_ARANGO_EMPTY_DATADIR: 1301,
   // Will be raised when encountering an empty server database directory.
-
 
   // ArangoDB replication errors
 
@@ -359,7 +352,6 @@ const codes = {
 
   ERROR_REPLICATION_START_TICK_NOT_PRESENT: 1414,
   // Will be raised when the replication applier fetches data using a start tick, but that start tick is not present on the logger server anymore.
-
 
   // ArangoDB cluster errors
 
@@ -455,7 +447,6 @@ const codes = {
 
   ERROR_CLUSTER_AGENCY_STRUCTURE_INVALID: 1480,
   // The structure in the agency is invalid
-
 
   // ArangoDB query errors
 
@@ -561,7 +552,6 @@ const codes = {
   ERROR_QUERY_ACCESS_AFTER_MODIFICATION: 1579,
   // Will be raised when collection data are accessed after a data-modification operation.
 
-
   // AQL user function errors
 
   ERROR_QUERY_FUNCTION_INVALID_NAME: 1580,
@@ -576,7 +566,6 @@ const codes = {
   ERROR_QUERY_FUNCTION_RUNTIME_ERROR: 1583,
   // Will be raised when a user function throws a runtime exception.
 
-
   // AQL query registry errors
 
   ERROR_QUERY_BAD_JSON_PLAN: 1590,
@@ -588,7 +577,6 @@ const codes = {
   ERROR_QUERY_IN_USE: 1592,
   // Will be raised when an Id of a query is found by the HTTP API but the query is in use.
 
-
   // ArangoDB cursor errors
 
   ERROR_CURSOR_NOT_FOUND: 1600,
@@ -596,7 +584,6 @@ const codes = {
 
   ERROR_CURSOR_BUSY: 1601,
   // Will be raised when a cursor is requested via its id but a concurrent request is still using the cursor.
-
 
   // ArangoDB transaction errors
 
@@ -615,7 +602,6 @@ const codes = {
   ERROR_TRANSACTION_ABORTED: 1654,
   // Will be raised when a transaction was aborted.
 
-
   // User management errors
 
   ERROR_USER_INVALID_NAME: 1700,
@@ -633,7 +619,6 @@ const codes = {
   ERROR_USER_CHANGE_PASSWORD: 1704,
   // Will be raised when the user must change his password.
 
-
   // Service management errors
 
   ERROR_SERVICE_INVALID_NAME: 1750,
@@ -647,7 +632,6 @@ const codes = {
 
   ERROR_SERVICE_UPLOAD_FAILED: 1753,
   // Will be raised when a service upload from the client to the ArangoDB server failed.
-
 
   // Key value access errors
 
@@ -672,7 +656,6 @@ const codes = {
   ERROR_KEYVALUE_NO_VALUE: 1806,
   // Will be raised when the value is missing
 
-
   // Task errors
 
   ERROR_TASK_INVALID_ID: 1850,
@@ -683,7 +666,6 @@ const codes = {
 
   ERROR_TASK_NOT_FOUND: 1852,
   // Will be raised when a task with the specified id could not be found.
-
 
   // Graph / traversal errors
 
@@ -780,7 +762,6 @@ const codes = {
   ERROR_GRAPH_EMPTY: 1940,
   // The requested graph has no edge collections.
 
-
   // Session errors
 
   ERROR_SESSION_UNKNOWN: 1950,
@@ -802,7 +783,6 @@ const codes = {
 
   SIMPLE_CLIENT_COULD_NOT_READ: 2003,
   // Will be raised when the client could not read data.
-
 
   // Foxx Manager errors
 
@@ -835,7 +815,6 @@ const codes = {
   ERROR_MODULE_FAILURE: 3103,
   // Failed to invoke the module in its context.
 
-
   // Results
 
   // These are technically not errors.
@@ -845,7 +824,6 @@ const codes = {
 
   RESULT_ELEMENT_NOT_FOUND: 10001,
   // Will be returned if the element was not found in the structure.
-
 
   // Dispatcher errors
 
